@@ -8,6 +8,7 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <link rel="icon" type="image/x-icon" href="./dist/image/favicon.svg">
 
     <link rel="stylesheet" href="./dist/style.css">
     <link rel="stylesheet" href="./dist/type.css">
@@ -64,9 +65,19 @@
                             <div class=" flex flex-row gap-9 items-center">
 
                                 <div class="menu-wrapper btn-menu flex gap-[15px] items-center flex-row">
-                                    <a href="" id="roadmap" data-aos="fade-up" data-aos-delay="650">Roadmap</a>
-                                    <a href="" id="tokenomics" data-aos="fade-up" data-aos-delay="700">Tenomics</a>
-                                    <a href="" id="about" data-aos="fade-up" data-aos-delay="750">About</a>
+
+                                    <div data-aos="fade-up" data-aos-delay="650">
+                                        <a href="#roadmap" class="feedback" id="">Roadmap</a>
+                                    </div>
+
+                                    <div data-aos="fade-up" data-aos-delay="700">
+                                        <a href="#tokenomics" class="feedback" id="">Tokenomics</a>
+                                    </div>
+
+                                    <div data-aos="fade-up" data-aos-delay="750">
+                                        <a href="#about" class="feedback" id="">About</a>
+                                    </div>
+
                                 </div>
 
 
@@ -80,10 +91,12 @@
                         </div>
                     </div>
 
+
+
                     <div class="type-1 pt-[5rem] flex flex-col gap-[1rem] items-center justify-center mb-[2rem]">
                         <div class="headline-1 text-center" data-aos="fade-up" data-aos-delay="500">
-                            <h1>Celebrate the Legacy of Naruto Creator Masashi Kishimoto with Kishimoto ERC-20 Token
-                            </h1>
+                            <h1 class="whitespace-pre-wrap">Celebrate the Legacy of Naruto Creator Masashi Kishimoto
+                                with <span class="text-accent">Kishimoto ERC-20 Token</span></h1>
                         </div>
 
                         <p class="text-center w-[100%] lg:w-[70%]" data-aos="fade-up" data-aos-delay="400">
@@ -117,8 +130,7 @@
             </div>
         </div>
 
-        <div class="wrap pb-[15rem] ">
-
+        <div class="wrap pb-[15rem]" id="about">
             <div class="page-2 border-2 border-font">
                 <div class="page-2-wrapper py-[20rem] pb-[10rem] main-wrapper running" data-aos="fade-up"
                     data-aos-delay="200">
@@ -161,7 +173,7 @@
             </div>
         </div>
 
-        <div class="page-3 pb-[15rem]">
+        <div class="page-3 pb-[15rem]" id="tokenomics">
             <div class="page-3-wrapper main-wrapper">
                 <div class="page-3-main">
 
@@ -186,14 +198,14 @@
                         </div>
                         <div class="tk-2" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <div>
-                                <h2>5% BUY TAX</h2>
-                                <h5>3% MARKETING</h5>
+                                <h2>0% Buy and Sell Tax</h2>
+                                <h5 class="whitespace-pre-wrap">$KISHIMOTO Offers No Tax</h5>
                             </div>
                         </div>
                         <div class="tk-3" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
                             <div>
-                                <h2>5% SELL TAX</h2>
-                                <h5>2% DEVELOPMENT</h5>
+                                <h2>Burnt</h2>
+                                <h5 class="whitespace-pre-wrap">$KISHIMOTO Burn Liquidity</h5>
                             </div>
                         </div>
                     </div>
@@ -203,9 +215,9 @@
         </div>
 
 
-        <div class="page-4 pt-[10rem] bg-accent border-t-2 border-font">
+        <div class="page-4 pt-[10rem] bg-accent border-t-2 border-font overflow-hidden" id="roadmap">
             <div class="page-4-wrapper">
-                <div class="page-4-main main-wrapper">
+                <div class="page-4-main main-wrapper ">
                     <div class="roadmap">
                         <div class="pg-4 flex mb-[215px] justify-end" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000">
@@ -295,7 +307,8 @@
 
                     <div class="footer-li stroke text-[#f4f4f4]" id="socials">
                         <h6>Socials</h6>
-                        <a target="_blank" href="" class="links flex flex-row gap-x-2 items-center">
+                        <a target="_blank" href="https://twitter.com/KishimotoERC"
+                            class="links flex flex-row gap-x-2 items-center">
                             Twitter
                             <img class="footer-s w-[16px] h-[auto]" src="./dist/image/twt.svg" alt="" srcset="" />
                         </a>
