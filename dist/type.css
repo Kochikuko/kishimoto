@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Naruto";
-  src: url(/font/njnaruto.ttf);
+  src: url(../font/njnaruto.ttf);
 }
 
 h1,
@@ -68,4 +68,3 @@ small {
     width: 100%;
   }
 }
-
