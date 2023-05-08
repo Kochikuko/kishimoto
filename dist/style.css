@@ -524,6 +524,15 @@ video {
   z-index: 40;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.-mt-\[5px\] {
+  margin-top: -5px;
+}
+
 .mb-\[0\.5rem\] {
   margin-bottom: 0.5rem;
 }
@@ -560,6 +569,10 @@ video {
   width: 100%;
 }
 
+.w-\[1400px\] {
+  width: 1400px;
+}
+
 .w-\[16px\] {
   width: 16px;
 }
@@ -574,6 +587,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[1400px\] {
+  max-width: 1400px;
 }
 
 .flex-row {
@@ -1189,6 +1206,31 @@ video {
 .stroke {
   --tw-text-opacity: 1;
   color: rgb(242 163 11 / var(--tw-text-opacity));
+}
+
+.btn-3 {
+  border-radius: 1.5rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(11 11 11 / var(--tw-border-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.btn-3:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 56 59 / var(--tw-bg-opacity));
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.group:hover .btn-3 {
+  background-color: transparent;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 @media (min-width: 1024px) {
